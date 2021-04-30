@@ -1,0 +1,65 @@
+nav {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 10%;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  padding: 10px;
+}
+
+nav ul li a {
+  color: #000;
+  font-size: 1.1rem;
+  padding: 10px;
+  transition: 0.4s;
+}
+
+nav ul li a:hover {
+  color: teal;
+  border-bottom: 4px solid teal;
+}
+
+.logo h1 a {
+  color: #000;
+  font-size: 2rem;
+}
+
+.menu {
+  display: none;
+}
+
+.fa-bars {
+  font-size: 1.5rem;
+}
+
+.cruz {
+  display: none;
+}
+
+.cart-icon {
+  position: relative;
+}
+
+.cart-icon span {
+  background: crimson;
+  border-radius: 10px;
+  color: #fff;
+  position: absolute;
+  top: -10px;
+  right: -5px;
+  padding: 4px 6px;
+  font-size: 10px;
+}
+
+.cart-icon .fa-shopping-cart {
+  font-size: 2rem;
+  color: #000;
+}
